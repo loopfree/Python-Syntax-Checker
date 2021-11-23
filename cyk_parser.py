@@ -28,7 +28,7 @@ class Parser:
     def __call__(self, sentence, parse=False):
         if os.path.isfile(sentence):
             with open(sentence) as inp:
-                self.input = inp.readline().split
+                self.input = inp.readline().split()
                 if parse:
                     self.parse()
         else:
