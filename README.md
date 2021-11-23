@@ -10,6 +10,6 @@
 <tr><td>No.</td><td>Nama</td><td>NIM</td></tr>
 <tr><td>1.</td><td>Steven</td><td>13520131</td></tr>
 <tr><td>2.</td><td>Dimas Faidh Muzaki</td><td>13520156</td></tr>
-<tr><td>3.</td><td>M Syahruh Surya Putra</td><td>13520161</td></tr>
+<tr><td>3.</td><td>M Syahrul Surya Putra</td><td>13520161</td></tr>
 
 </table>

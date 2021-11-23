@@ -80,10 +80,10 @@ rules = [
     (r'\)','RP'),
     (r'\{', 'LC'),
     (r'\}', 'RC'),
-    (r'=','EQUALS'),
-
+    
     # Checking
     (r'==','DOUBLEEQUAL'),
+    (r'=','EQUALS'),
     (r'!=', 'NOT_EQUAL'),
     (r'>=', 'GREATER_OR_EQUAL_THAN'),
     (r'>', 'GREATER_THAN'),
