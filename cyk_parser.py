@@ -65,3 +65,11 @@ class Parser:
                         if left_nodes:
                             right_nodes = [n for n in right_cell if n.symbol == rule[2]]
                             self.parse_table[words_to_consider - 1][starting_cell].extend([Node(rule[0], left, right) for left in left_nodes for right in right_nodes])
+
+    def print_tree(self, output=True):
+        start_symbol = self.grammar[0][0]
+        final_nodes = [n for n in self.parse_table[-1][0] if n.symbol == start_symbol]
+        if final_nodes:
+            if output:
+                return True
+        return False
