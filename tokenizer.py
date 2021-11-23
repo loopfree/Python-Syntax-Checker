@@ -52,6 +52,3 @@ def tokenizer(filename):
         result.append(temp)
     result = [res for res in result if res != ' ' and res != '']
     return result
-
-file = input("Masukkan nama file: ")
-print(tokenizer(file))
