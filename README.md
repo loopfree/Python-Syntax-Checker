@@ -9,7 +9,7 @@ Membuat parser bahasa pemrograman python dengan menggunakan konsep CFG dan FA ya
 git clone https://github.com/loopfree/Tubes-TBFO.git Tubes-TBFO
 cd Tubes-TBFO
 ```
-- Jalankan `py lexer.py <testfile>`
+- Jalankan `py main.py <testfile>`
 
 ## Daftar Anggota Kelompok
 
