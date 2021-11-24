@@ -35,7 +35,8 @@ class Parser:
             self.input = sentence.split()
 
     def __del__(self):
-        print("-----------------------------------------------------")
+        print("-----------------------------------------------------------------")
+        print("\n")
 
     def grammar_file(self, grammar):
         self.grammar = grammarConverter.convert_grammar(grammarConverter.read_grammar(grammar))
