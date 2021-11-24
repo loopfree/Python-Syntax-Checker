@@ -1,6 +1,15 @@
-# Tugas Besar IF2124 Teori Bahasa Formal dan Otomata
+## Tugas Besar IF2124 Teori Bahasa Formal dan Otomata
 
-> Membuat parser bahasa pemrograman python dengan menggunakan konsep CFG dan FA yang diimplementasikan dengan menggunakan python
+Membuat parser bahasa pemrograman python dengan menggunakan konsep CFG dan FA yang diimplementasikan dengan menggunakan python
+
+## How to Run
+- Pastikan ada [Python](https://www.python.org/downloads/)
+- Clone repo ini
+```
+git clone https://github.com/loopfree/Tubes-TBFO.git Tubes-TBFO
+cd Tubes-TBFO
+```
+- Jalankan `py lexer.py <testfile>`
 
 ## Daftar Anggota Kelompok
 
