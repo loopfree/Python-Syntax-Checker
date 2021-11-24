@@ -13,3 +13,10 @@
 <tr><td>3.</td><td>M Syahrul Surya Putra</td><td>13520161</td></tr>
 
 </table>
+
+## Referensi
+* https://stackoverflow.com/questions/41067866/raw-strings-python-and-re-normal-vs-special-characters
+* https://github.com/RobMcH/CYK-Parser
+* https://stackoverflow.com/questions/45981339/text-file-parsing-with-python-and-with-a-list-in-grammar
+* https://github.com/python/cpython
+* https://re2c.org/2021_trofimovich_re2c_a_lexer_generator_based_on_lookahead_tdfa_(slides).pdf
