@@ -63,6 +63,7 @@ rules = [
     (r',', 'COMA'),
     (r'\n', 'NEWLINE'),
     (r'\s', 'WHITESPACE'),
+    (r'\d+[a-zA-Z_]+[\da-zA-Z_0-9]*', 'NOT_VAR'),
     (r'\d+','NUMBER'),
     (r'\d+.+\d','FLOAT'),
     (r'[a-zA-Z_]+[\da-zA-Z_0-9]*','IDENTIFIER'),
